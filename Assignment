@@ -1,0 +1,61 @@
+#Python Operators
+
+#Arithmatic Operators
+print(10+20)#addition
+print(10-20)#subtraction
+print(10*20)#multiplication
+print(20/10)#division
+print(20%10)#modulus
+print(15//4)#floor division
+print(10**20)#exponential 
+
+#Assignment Operators
+a=20
+a/=5#divide
+a+=5#add
+a-=5#subtract
+a*=5#multiply
+a%=5#modulus
+a//=5#floor division
+a**=5#exponential
+print(a)
+
+#Comparision Operators
+print(19==4) #Equal
+print(3!=4) #Not Equal
+print(3>4) #Greater
+print(3<4) #Less Than
+print(4<=4) #Lesser or Equal
+print(4>=3) #Greater or Equal
+
+#Logical Operators
+x=2
+print(x<5 and x>8)#Return True if both the statements are true
+print(x<5 and x<8)
+print(x<5 or x>8)#Return True if any one of the statement is true
+print(not(x<5 and x<8))#Reverse the output #i.e. if result is true than it will return false
+
+#Identity Operators
+a=[10, 20]
+b=[10,20]
+c = a
+a.remove(20)
+print(a)
+print(b)
+print(c)
+print(a is c)#Return true if both the variables are same object projecting to the same memory location
+print(b is c)#it will return false bcoz b is not pointing to the same memory location as c even though both have same elements
+
+ #Bitwise Operators
+#They are used to compare binary numbers
+$=> AND =>if both bits are 1,it sets each bit to 1  otherwise 0
+| => OR =>if one of the bits is 1,it sets each bit to 1 
+                                                    otherwise 0
+^=> XOR =>if one of the two bit is 1,it sets each bit to 1
+                                                    otherwise 0
+#=> NOT =>Complement Operator=>It returns complement of the numbers
+
+<< =>Zero fill left shift =>the binary number is appended with 0's at the end
+<< => Right shift =>Right side of the bit is removed
+            
+            
